@@ -13,6 +13,10 @@ a{
     color: var(--click);
 }
 
+nav a:hover{
+    background-color: var(--lightbox);
+}
+
 h2{
     border: 2px dashed var(--background);
     text-align: center;
