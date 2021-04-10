@@ -1,0 +1,10 @@
+:root{
+    --background: #172A3C;
+    --darkbox: #527193;
+    --lightbox: #BEE6ED;
+    --text: #E5E2DC;
+    --click: #EB5658;
+    
+    background-color: var(--background);
+    color: var(--text);
+}
