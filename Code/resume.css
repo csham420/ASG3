@@ -9,13 +9,22 @@
     color: var(--text);
 }
 
+a{
+    color: var(--click);
+}
+
 header, footer {
     background-color: var(--darkbox);
+}
+
+nav{
+    background-color: var(--text);
 }
 
 .lightbox {
     background-color: var(--lightbox);
     color: black;
+    border: 2px black solid;
 }
 
 #intro{
