@@ -32,9 +32,11 @@ nav{
     color: black;
     border: 2px black solid;
     border-radius: 4px;
-    display: grid;
 }
-
+article{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
 #intro{
     
 }
