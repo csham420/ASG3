@@ -51,7 +51,8 @@ nav ul{
 }
 
 td, th {
-    border: 2px solid;
+    border: 2px solid black;
+    width: 50%;
 }
 tr:nth-child(even){
     background-color: var(--background);
@@ -87,7 +88,10 @@ section {
 #intro{
     text-align: center;
 }
-
+#tab{
+    background-color: var(--text);
+    border: 3px solid black;
+}
 
 @media screen and (min-width:850px){
     article{
