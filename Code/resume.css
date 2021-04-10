@@ -13,8 +13,14 @@ a{
     color: var(--click);
 }
 
+h2{
+    border: 2px dashed var(--background);
+}
+
 header, footer {
     background-color: var(--darkbox);
+    border: 2px black solid;
+    border-radius: 4px;
 }
 
 nav{
@@ -25,6 +31,8 @@ nav{
     background-color: var(--lightbox);
     color: black;
     border: 2px black solid;
+    border-radius: 4px;
+    display: grid;
 }
 
 #intro{
