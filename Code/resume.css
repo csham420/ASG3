@@ -25,6 +25,14 @@ header, footer {
 
 nav{
     background-color: var(--text);
+    align-items: center;
+}
+nav ul{
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+    border: 2px solid black;
+    padding: 2% 5%;
 }
 
 td, th {
@@ -46,6 +54,10 @@ tr:hover{
     color: black;
     border: 2px black solid;
     border-radius: 4px;
+}
+
+.lightbox:hover{
+    border-color: white;
 }
 
 
