@@ -168,14 +168,25 @@ header, footer {
 nav{
     background-color: var(--text);
     align-items: center;
+    justify-content: center;
 }
-nav ul{
-  display: flex;
-  direction: row;
-  justify-content: space-around;
-    border: 2px solid black;
-    padding: 2% 5%;
+
+li {
+    margin: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
+
+nav ul li {
+    background-color: var(--background);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    background-color: var(--lightbox);
+}
+
 
 td, th {
     border: 2px solid black;
@@ -227,8 +238,18 @@ section {
         display: grid;
         grid-gap: 10px;
         grid-template-columns: 3fr 3fr;
-    }  
+    }
+    
+    nav ul{
+        display: flex;
+        direction: row;
+        justify-content: space-around;
+        border: 2px solid black;
+        padding: 2% 5%;
+    }
 }
+
+
 
 
 
