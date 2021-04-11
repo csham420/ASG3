@@ -1,3 +1,5 @@
+/*Initialzing root variables, fonts, and default font-size */
+
 :root{
     --background: #172A3C;
     --darkbox: #527193;
@@ -10,6 +12,8 @@
     font-family: sans-serif, "Georgia", "Times New Roman";
     font-size: 16px;
 }
+
+/*Establishing default css values for properties that were reset */
 
 div, footer, header, html, section {
     display: block;
@@ -131,6 +135,8 @@ h6 {
     font-weight: bold;
 }
 
+/*css used to design the web page*/
+
 a{
     color: var(--click);
 }
@@ -213,6 +219,8 @@ section {
     background-color: var(--text);
     border: 3px solid black;
 }
+
+/*Reacting to changes in screen size */
 
 @media screen and (min-width:850px){
     article{
