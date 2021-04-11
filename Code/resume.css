@@ -231,6 +231,10 @@ section {
     border: 3px solid black;
 }
 
+#rlink {
+    text-align: center;
+}
+
 /*Reacting to changes in screen size */
 
 @media screen and (min-width:850px){
