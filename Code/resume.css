@@ -235,6 +235,11 @@ section {
     text-align: center;
 }
 
+#approve {
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
 /*Reacting to changes in screen size */
 
 @media screen and (min-width:850px){
@@ -251,7 +256,10 @@ section {
         border: 2px solid black;
         padding: 2% 5%;
     }
+    
+    
 }
+
 
 
 

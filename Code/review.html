@@ -21,14 +21,56 @@
             </nav>
         </header>
         
-        <form class="lightbox" method="post" action="mailto:csham420@mtroyal.ca">
-            <h2>Thank you for choosing to leave a comment or review my webpage!</h2>
-            <h3 id="rlink">Please fill out the following form so that I may recieve your feedback.</h3>
+        <article>
+            <form class="lightbox" method="post" action="mailto:csham420@mtroyal.ca">
+                <h2>Thank you for choosing to leave a comment or review my webpage!</h2>
+                <h3 id="rlink">Please fill out the following form so that I may recieve your feedback.</h3>
             
-            <p>
-                <label>Email: <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" ></label>
-            </p>
-        </form>
+                <p>
+                    Please enter your email address: <br> <br>
+                    <label>Email <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]    {2,4}$" placeholder="address@domain.com"></label>
+                </p>
+            
+                <p>
+                    Please enter your phone number: <br><br>
+                    <label>Phone Number <input name="tel" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}"  placeholder="333-333-3333"></label>
+                </p>
+            
+                <p>
+                    Please select the date you visited the webpage: <br><br>
+                    <label>Date <input name="dte" type="date" ></label>
+                </p>
+            
+                <p>
+                    Please select a rating for the website: <br><br>
+                    <label>Rating: <br>
+                        <select name="rating" size="1" autofocus>
+                            <option selected>Awesome - 4</option>
+                            <option>Good - 3</option>
+                            <option>Acceptable - 2</option>
+                            <option>Poor - 1</option>
+                        </select>
+                    </label>
+                </p>
+            
+                <p>
+                    <label>Comments:<br>
+                        <textarea name="texta" rows="35" cols="35"></textarea>
+                    </label> 
+                   
+                </p>
+            
+                <input name="submit" type="submit" formnovalidate>
+                <input name="reset" type="reset">
+            
+                <h3 id="rlink">Thank you for your feedback!</h3>
+            </form>
+            
+            <section class="lightbox">
+                <img id="approve" src="Images/Approve.png" alt="Big Checkmark" title="Please show your approval" width="50%">
+            </section>
+        </article>
+        
     
     
     </body>
