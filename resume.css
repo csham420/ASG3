@@ -219,6 +219,11 @@ tr:hover{
     margin-right: auto;
 }
 
+video {
+    display: block;
+    margin: auto;
+}
+
 section {
     padding: 10px;
 }
